@@ -1,5 +1,9 @@
 FROM debian:11
 
+LABEL org.opencontainers.image.source=https://github.com/maarlo/unifi-network-server
+LABEL org.opencontainers.image.description="Dockerized UniFi Network Server"
+LABEL org.opencontainers.image.licenses=MIT
+
 ARG DEBIAN_FRONTEND=noninteractive
 
 #
